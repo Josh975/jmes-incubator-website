@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-4 bg-accent text-text font-bold rounded-lg shadow-md hover:bg-primary focus:outline-none focus:ring-2 focus:ring-accent focus:ring-opacity-75;
+  }
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Montserrat-Regular'), url('../public/fonts/Montserrat-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Montserrat-SemiBold'), url('../public/fonts/Montserrat-SemiBold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Coolvetica-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Coolvetica-Regular'), url('../public/fonts/coolvetica.woff') format('woff');
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat-Regular', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  @apply text-primary-blue underline hover:text-primary;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-heading;
+}
+
+a,
+strong,
+b {
+  @apply font-bold;
+}
+
+p + p {
+  @apply mt-4;
+}
+
+@media (prefers-color-scheme: dark) {
+}
