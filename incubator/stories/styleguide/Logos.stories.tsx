@@ -15,7 +15,7 @@ export const Logos = () =>(
             </div>
         </div>
         <div>
-            <div className="bg-primary-blue inline-block">
+            <div className="bg-primary-purple inline-block">
                 <LogoComponent color="white" size="lg" />
             </div>
         </div>

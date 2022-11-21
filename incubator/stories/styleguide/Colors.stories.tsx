@@ -9,8 +9,8 @@ export const Colors = () =>(
         <div className="pt-10 pb-4 pl-4 bg-primary col-span-3">
             <p className="text-text">primary</p>
         </div>
-        <div className="pt-10 pb-4 pl-4 bg-primary-blue col-span-3">
-            <p className="text-white">primary-blue</p>
+        <div className="pt-10 pb-4 pl-4 bg-primary-purple col-span-3">
+            <p className="text-white">primary-purple</p>
         </div>
         <div className="pt-10 pb-4 pl-4 bg-accent col-span-2">
             <p className="text-text">accent</p>

@@ -38,7 +38,7 @@ body {
 }
 
 a {
-  @apply text-primary-blue underline hover:text-primary;
+  @apply text-primary-purple underline hover:text-primary;
 }
 
 * {
@@ -65,4 +65,27 @@ p + p {
 }
 
 @media (prefers-color-scheme: dark) {
+}
+
+/* Gradients example */
+.gradient-1 {
+  background-color: theme('colors.primary');
+  background-image: radial-gradient(
+      80% 80%
+      at left 0 bottom 0,
+      theme('colors.white'),
+      transparent
+    ),
+    radial-gradient(
+      80% 80%
+      at right 0 bottom 0,
+      theme('colors.accent'),
+      transparent
+    ),
+    radial-gradient(
+      90% 90%
+      at right 0 top 0,
+      theme('colors.primary-purple'),
+      transparent
+    );
 }

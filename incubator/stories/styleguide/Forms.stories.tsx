@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default {
-  title: 'StyleGuide/Form',
+    title: 'StyleGuide/Form',
 };
 
 export const Form = () =>(

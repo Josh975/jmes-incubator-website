@@ -9,7 +9,7 @@ export const Text = () =>(
 		<p>Here’s a paragraph &lt;p&gt; filled with some <a href="#">Space Ipsum</a>. <b>Never in all their history have men been able truly to conceive</b> <em>of the world as one: a single sphere, a globe, having the qualities of a</em> globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman’s earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
 		<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
 		<hr className="my-4" />
-		<ul className="list-disc list-inside marker:text-primary-blue" role="list">
+		<ul className="list-disc list-inside marker:text-primary-purple" role="list">
 			<li><a href="#">anchor link</a> &lt;a&gt;</li>
 			<li>Here’s the <code>&lt;code&gt;</code> element</li>
 			<li>deleted text: <del>Episodes I, II, III</del> &lt;del&gt;</li>
